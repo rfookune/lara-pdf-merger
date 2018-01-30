@@ -1,5 +1,5 @@
 {
-    "name": "lynx39/lara-pdf-merger",
+    "name": "lynx39/lara-pdf-merger-php-7-2",
     "description": "",
     "keywords": ["merger","merge","pdf","manage","paginate", "laravel"],
     "license" : [
@@ -15,7 +15,7 @@
     "require": {
         "php" : ">=5.4"
     },
-    "homepage" : "https://github.com/LynX39/lara-pdf-merger",
+    "homepage" : "https://github.com/rfookune/lara-pdf-merger-php-7-2",
     "autoload": {
         "psr-0": {
             "LynX39\\LaraPdfMerger": "src/"
