@@ -18,7 +18,7 @@
     "homepage" : "https://github.com/rfookune/lara-pdf-merger-php-7-2",
     "autoload": {
         "psr-0": {
-            "LynX39\\LaraPdfMerger": "rfookune/lara-pdf-merger-php-7-2/src/"
+            "Nextek\\LaraPdfMerger": "rfookune/lara-pdf-merger-php-7-2/src/"
         }
     }
 }
