@@ -1,5 +1,7 @@
 <?php 
 
+namespace Nextek\LaraPdfMerger;
+
 use Illuminate\Support\ServiceProvider;
 
 class PdfMergerServiceProvider extends ServiceProvider {

@@ -1,5 +1,7 @@
 <?php
 
+namespace Nextek\LaraPdfMerger;
+
 use Exception;
 use TCPDI;
 
