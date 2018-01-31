@@ -1,10 +1,10 @@
 # lara-pdf-merger
 
-Original written by http://pdfmerger.codeplex.com/team/view<br/>
+Original written by Michael Musso https://github.com/LynX39 (https://github.com/deltaaskii/lara-pdf-merger)<br/>
 
 ###Update
 
-Change parsers and use tcpdf, tcpdi and tcpdi_parser
+Changed each() to foreach -> each() DEPRECATED in PHP 7.2 
   
 ## Installation
 
@@ -12,7 +12,7 @@ Change parsers and use tcpdf, tcpdi and tcpdi_parser
 
 Require this package in your composer.json and update composer.
 
-    "lynx39/lara-pdf-merger": "1.0.*",
+    "rfookune/lara-pdf-merger-php-7-2": "dev-master",
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 

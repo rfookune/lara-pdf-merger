@@ -1,6 +1,6 @@
 {
     "name": "rfookune/lara-pdf-merger-php-7-2",
-    "description": "",
+    "description": "Forked from https://github.com/deltaaskii/lara-pdf-merger. Replaced each() (depreciated in php 7.2) to foreach.",
     "keywords": ["merger","merge","pdf","manage","paginate", "laravel"],
     "license" : [
         "MIT"
@@ -10,6 +10,10 @@
             "name": "Michael Musso",
             "email": "lynx@deltaaskii.com",
             "homepage": "https://github.com/LynX39"
+        },
+        {
+            "name": "Rhyan Foo Kune",
+            "homepage": "https://github.com/rfookune"
         }
     ],
     "require": {
@@ -17,8 +21,8 @@
     },
     "homepage" : "https://github.com/rfookune/lara-pdf-merger-php-7-2",
     "autoload": {
-        "psr-0": {
-            "Nextek\\LaraPdfMerger": "rfookune/lara-pdf-merger-php-7-2/src/"
+        "psr-4": {
+            "Nextek\\LaraPdfMerger\\": "rfookune/lara-pdf-merger-php-7-2/src/"
         }
     }
 }

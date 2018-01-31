@@ -1,4 +1,4 @@
-<?php namespace LynX39\LaraPdfMerger;
+<?php 
 
 use Illuminate\Support\ServiceProvider;
 
