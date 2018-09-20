@@ -16,11 +16,11 @@ Require this package in your composer.json and update composer.
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
 
-    LynX39\LaraPdfMerger\PdfMergerServiceProvider::class,
+    Nextek\LaraPdfMerger\PdfMergerServiceProvider::class,
 
 You can optionally use the facade for shorter code. Add this to your facades:
 
-    'PdfMerger' => LynX39\LaraPdfMerger\Facades\PdfMerger::class,
+    'PdfMerger' => Nextek\LaraPdfMerger\Facades\PdfMerger::class,
     
 ## Using
 
